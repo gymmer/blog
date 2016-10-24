@@ -42,19 +42,19 @@ if ( $site_description && ( is_home() || is_front_page() ) ) echo " | $site_desc
 </header>
 
 			
-			<ul class="we-content">
+		<ul class="we-content">
 			<li class="we-menu1">
 			<a href="<?php bloginfo('url');?>"><span class="we-home we-icon"></span>
 			           <span class="we-title wtitle">HOME</span>
-					   <span class="sub-text">It's Welcome Page</span>
+					   <span class="sub-text">首页</span>
 					   <div class="bottom-line"></div>
 					   </a>
 			</li>
 			
 			<li class="we-menu2">
-			<a href="<?php echo akina_option('about_link', '#'); ?>"><span class="we-about we-icon"></span>
-			           <span class="we-title wtitle">about</span>
-					   <span class="sub-text">who im i</span>
+			<a href="<?php echo akina_option('archives_link', '#'); ?>"><span class="we-archives we-icon"></span>
+			           <span class="we-title wtitle">archives</span>
+					   <span class="sub-text">时间轴</span>
 					   <div class="bottom-line"></div>
 					   </a>
 			</li>
@@ -68,9 +68,9 @@ if ( $site_description && ( is_home() || is_front_page() ) ) echo " | $site_desc
 			</li>
 			
 			<li class="we-menu4">
-			<a href="<?php echo akina_option('archives_link', '#'); ?>"><span class="we-archives we-icon"></span>
-			           <span class="we-title wtitle">archives</span>
-					   <span class="sub-text">all my posts</span>
+			<a href="<?php echo akina_option('about_link', '#'); ?>"><span class="we-about we-icon"></span>
+			           <span class="we-title wtitle">about</span>
+					   <span class="sub-text">关于我</span>
 					   <div class="bottom-line"></div>
 					   </a>
 			</li>		

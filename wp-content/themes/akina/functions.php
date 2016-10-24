@@ -426,6 +426,10 @@ add_action('future_to_publish', 'autoset_featured');
  * @Author M.J
  * @Date 2013-12-24
  */	
+
+
+/*  显示主题自带的Login页面
+
 	//Login Page
 	function custom_login() {
 		echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('template_directory') . '/inc/login.css" />'."\n";
@@ -461,6 +465,8 @@ add_action('future_to_publish', 'autoset_featured');
 		echo '</script>'."\n";
 	}
 	add_action('login_footer', 'custom_html');
+
+*/
 
 function download($atts, $content = null) {  
 return '<a class="download" href="'.$content.'" rel="external"  
